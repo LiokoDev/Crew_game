@@ -26,6 +26,8 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
+    <background>background\bg_floor</background>
+    <background>background\bg_wall</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -34,6 +36,7 @@
         <script>scripts\scr_enemy_choose_next_state.gml</script>
         <script>scripts\scr_check_for_player.gml</script>
         <script>scripts\scr_enemy_stall_state.gml</script>
+        <script>scripts\scr_enemy_find_pos.gml</script>
       </scripts>
       <script>scripts\scr_enemy_idle_state.gml</script>
       <script>scripts\scr_enemy_wander_state.gml</script>
@@ -61,8 +64,8 @@
     <object>objects\obj_damage</object>
     <object>objects\obj_player_stats</object>
     <object>objects\obj_expr</object>
+    <object>objects\Level</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
   </rooms>

@@ -2,5 +2,4 @@
 scr_check_for_player();
 
 ///Move towards player
-phy_position_x += sign(targetx - x) * spd;
-phy_position_y += sign(targety -y) * spd;
+scr_enemy_find_pos();
