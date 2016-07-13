@@ -1,6 +1,10 @@
 ///scr_dash_state
 
 //Dash Speed
+if(len == 0 ){
+    dir = face * 90;
+}
+
 len = spd * 4;
 
 //Get the Hspd and Vspd
